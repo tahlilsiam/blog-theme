@@ -1,0 +1,139 @@
+/**
+ * Theme Name:        Blog Theme Sima
+ * Theme URI:         https://diligite.com/
+ * Description:       Wordpress blog theme. This a simple Blog theme for my practice. 
+                      It can be done in good style.
+ * Version:           1.0.0
+ * Author:            Tahlil Abrar
+ * Author URI:        https://example.com
+ * Tags:              blog, theme
+ * Text Domain:       fabled-sunset
+ * Domain Path:       /assets/lang
+ * Tested up to:      6.4
+ * Requires at least: 6.2
+ * Requires PHP:      7.4
+ * License:           GNU General Public License v2.0 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: rgb(235, 230, 219);
+  margin: 0;
+  padding: 0;
+  line-height: 1.7em;
+}
+
+header {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #566573;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  margin-top: 5%;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header span {
+  font-size: 24px;
+  color: white;
+}
+
+.main {
+  margin: 15px 0;
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+  overflow: auto;
+}
+
+a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: blue;
+}
+
+article.post {
+  border-bottom: 1px #000 solid;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+article.post a.link {
+  display: inline-block;
+  background: #333;
+  color: white;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.blog-content {
+  background: #82e0aa;
+  color: #333;
+  padding: 2px;
+}
+
+.thumbnail img {
+  width: 25%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.nav-menu {
+  background: white;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.nav-menu ul {
+  margin: 10px;
+  padding: 0;
+}
+
+.nav-menu li {
+  list-style: none;
+  float: left;
+  padding: 10px;
+  margin-left: 5px;
+  transition: transform 0.3s; /* Add transition for smooth scaling */
+}
+
+.nav-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-menu li:hover {
+  transform: scale(1.1);
+  background-color: grey;
+  margin: 0 -5px;
+}
+
+.nav-menu a:hover {
+  color: black; /* Hover color for the text */
+}
+
+footer {
+  background-color: #566573;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-family: Arial, sans-serif;
+}
+
+footer p {
+  font-size: 14px;
+}
